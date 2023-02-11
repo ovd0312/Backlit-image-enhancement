@@ -10,6 +10,8 @@ Backlit images are images where the light source is behind the subject of the ph
   <li>Merge the input image and enhanced image using alpha blending, according to the weight map generated.</li>
 </ul>
 
+I have also included a change of using k-means thresholding instead of Otsu, which provides significantly better results. You can choose what technique to use in main.py.
+
 ## Requirements
 Make sure `opencv2` is installed for python.
 
