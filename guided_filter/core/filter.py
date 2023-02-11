@@ -7,8 +7,8 @@ import sys
 sys.path.append("..")
 import numpy as np
 
-from cv.smooth import box_filter
-from cv.image import to_32F
+from ..cv.smooth import box_filter
+from ..cv.image import to_32F
 
 
 class GuidedFilter:

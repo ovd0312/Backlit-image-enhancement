@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 import copy
-from core.filter import GuidedFilter
+from guided_filter.core.filter import GuidedFilter
 import os
 
 def k_means(k, img):
